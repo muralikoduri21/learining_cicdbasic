@@ -1,0 +1,11 @@
+name: exe3
+on:
+    push:
+        branches:
+            - dev
+jobs:
+    learning:
+        runs-on: ubuntu- latest
+        steps:
+            - name: dev branch
+              run: curl -I https://www.google.com
