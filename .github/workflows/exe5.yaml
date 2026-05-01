@@ -2,7 +2,7 @@ name: exe5
 on:
     workflow_dispatch:
     schedule:
-        - cron: '*/2 * * * *'
+       # - cron: '*/2 * * * *'
 jobs:
     learning:
         runs-on: ubuntu-latest
