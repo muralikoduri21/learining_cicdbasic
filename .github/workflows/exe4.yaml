@@ -1,0 +1,11 @@
+name: exe4
+on:
+    pull_request:
+        branches:
+            - dev
+jobs:
+    learning:
+        runs-on: ubuntu-latest
+        steps:
+            - name: dev req
+              run : "echo thanks for PR"
